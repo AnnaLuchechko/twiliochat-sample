@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A866DD1C1B5E8100525F07 /* MockAlertDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A866DC1C1B5E8100525F07 /* MockAlertDialogController.swift */; };
+		59A866DF1C1B6C0900525F07 /* LoginViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A866DE1C1B6C0900525F07 /* LoginViewControllerTests.swift */; };
+		59AE1CCE1C0C8C280008B10B /* TextFieldFormHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AE1CCD1C0C8C280008B10B /* TextFieldFormHandler.swift */; };
+		59AE1CD21C0D03820008B10B /* MessagingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AE1CD11C0D03820008B10B /* MessagingManager.swift */; };
+		59F208FE1C04C06800CC2392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F208FD1C04C06800CC2392 /* AppDelegate.swift */; };
+		59F209031C04C06800CC2392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F209011C04C06800CC2392 /* Main.storyboard */; };
+		59F209051C04C06800CC2392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F209041C04C06800CC2392 /* Assets.xcassets */; };
+		59F209081C04C06800CC2392 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59F209061C04C06800CC2392 /* LaunchScreen.storyboard */; };
+		59F209131C04C06800CC2392 /* DateTodayFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F209121C04C06800CC2392 /* DateTodayFormatterTests.swift */; };
+		59F2092F1C04C35E00CC2392 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 59F2092D1C04C35E00CC2392 /* Keys.plist */; };
+		59F209321C050EF700CC2392 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F209311C050EF700CC2392 /* LoginViewController.swift */; };
+		59F5EDB01C6E925500CE7D32 /* TokenRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5EDAF1C6E925500CE7D32 /* TokenRequestHandler.swift */; };
+		59F5EDB31C720E1200CE7D32 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F5EDB21C720E1200CE7D32 /* SessionManager.swift */; };
+		877109151C10EF4F004C57D3 /* ChannelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877109141C10EF4F004C57D3 /* ChannelManager.swift */; };
+		877109171C15E55E004C57D3 /* MenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877109161C15E55E004C57D3 /* MenuTableCell.swift */; };
+		8771091A1C162FC8004C57D3 /* ChatStatusTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877109181C162FC8004C57D3 /* ChatStatusTableCell.xib */; };
+		8771091B1C162FC8004C57D3 /* ChatTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877109191C162FC8004C57D3 /* ChatTableCell.xib */; };
+		8771091D1C1638E9004C57D3 /* InputDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771091C1C1638E9004C57D3 /* InputDialogController.swift */; };
+		8771091F1C175AC2004C57D3 /* ChatTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8771091E1C175AC2004C57D3 /* ChatTableCell.swift */; };
+		877109211C1772C5004C57D3 /* StatusMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877109201C1772C5004C57D3 /* StatusMessage.swift */; };
+		877109231C1776FA004C57D3 /* DateTodayFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877109221C1776FA004C57D3 /* DateTodayFormatter.swift */; };
+		87F895F21C0CF3CE00754007 /* AlertDialogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F895F11C0CF3CE00754007 /* AlertDialogController.swift */; };
+		87F895F61C0E044300754007 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F895F51C0E044300754007 /* MenuViewController.swift */; };
+		87F895F81C0E045F00754007 /* MainChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F895F71C0E045F00754007 /* MainChatViewController.swift */; };
+		8A07B2CB1F224CAD009F0836 /* MockMessagingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A07B2CA1F224CAD009F0836 /* MockMessagingManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59F2090F1C04C06800CC2392 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59F208F21C04C06800CC2392 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59F208F91C04C06800CC2392;
+			remoteInfo = twiliochat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59A866DC1C1B5E8100525F07 /* MockAlertDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAlertDialogController.swift; sourceTree = "<group>"; };
+		59A866DE1C1B6C0900525F07 /* LoginViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTests.swift; sourceTree = "<group>"; };
+		59AE1CCD1C0C8C280008B10B /* TextFieldFormHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldFormHandler.swift; sourceTree = "<group>"; };
+		59AE1CD11C0D03820008B10B /* MessagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagingManager.swift; sourceTree = "<group>"; };
+		59F208FA1C04C06800CC2392 /* twiliochat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twiliochat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F208FD1C04C06800CC2392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59F209021C04C06800CC2392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59F209041C04C06800CC2392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F209071C04C06800CC2392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59F209091C04C06800CC2392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F2090E1C04C06800CC2392 /* twiliochatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = twiliochatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F209121C04C06800CC2392 /* DateTodayFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTodayFormatterTests.swift; sourceTree = "<group>"; };
+		59F209141C04C06800CC2392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F2092D1C04C35E00CC2392 /* Keys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		59F209311C050EF700CC2392 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		59F5EDAF1C6E925500CE7D32 /* TokenRequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenRequestHandler.swift; sourceTree = "<group>"; };
+		59F5EDB21C720E1200CE7D32 /* SessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		825276F51DFB48EC0029E3CA /* twiliochat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "twiliochat-Bridging-Header.h"; sourceTree = "<group>"; };
+		877109141C10EF4F004C57D3 /* ChannelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelManager.swift; sourceTree = "<group>"; };
+		877109161C15E55E004C57D3 /* MenuTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableCell.swift; sourceTree = "<group>"; };
+		877109181C162FC8004C57D3 /* ChatStatusTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatStatusTableCell.xib; sourceTree = "<group>"; };
+		877109191C162FC8004C57D3 /* ChatTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatTableCell.xib; sourceTree = "<group>"; };
+		8771091C1C1638E9004C57D3 /* InputDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputDialogController.swift; sourceTree = "<group>"; };
+		8771091E1C175AC2004C57D3 /* ChatTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableCell.swift; sourceTree = "<group>"; };
+		877109201C1772C5004C57D3 /* StatusMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMessage.swift; sourceTree = "<group>"; };
+		877109221C1776FA004C57D3 /* DateTodayFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTodayFormatter.swift; sourceTree = "<group>"; };
+		87F895F11C0CF3CE00754007 /* AlertDialogController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDialogController.swift; sourceTree = "<group>"; };
+		87F895F51C0E044300754007 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		87F895F71C0E045F00754007 /* MainChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainChatViewController.swift; sourceTree = "<group>"; };
+		8A07B2CA1F224CAD009F0836 /* MockMessagingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMessagingManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F208F71C04C06800CC2392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F2090B1C04C06800CC2392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A866D91C1B5D3700525F07 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8A07B2CA1F224CAD009F0836 /* MockMessagingManager.swift */,
+				59A866DC1C1B5E8100525F07 /* MockAlertDialogController.swift */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		59AE1CCF1C0C8C6D0008B10B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				59AE1CCD1C0C8C280008B10B /* TextFieldFormHandler.swift */,
+				87F895F11C0CF3CE00754007 /* AlertDialogController.swift */,
+				8771091C1C1638E9004C57D3 /* InputDialogController.swift */,
+				877109221C1776FA004C57D3 /* DateTodayFormatter.swift */,
+				59F5EDAF1C6E925500CE7D32 /* TokenRequestHandler.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		59AE1CD01C0D034D0008B10B /* messaging */ = {
+			isa = PBXGroup;
+			children = (
+				59AE1CD11C0D03820008B10B /* MessagingManager.swift */,
+			);
+			name = messaging;
+			sourceTree = "<group>";
+		};
+		59F208F11C04C06800CC2392 = {
+			isa = PBXGroup;
+			children = (
+				59F208FC1C04C06800CC2392 /* twiliochat */,
+				59F209111C04C06800CC2392 /* twiliochatTests */,
+				59F208FB1C04C06800CC2392 /* Products */,
+				89D67A5C1B1630989E04019D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		59F208FB1C04C06800CC2392 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F208FA1C04C06800CC2392 /* twiliochat.app */,
+				59F2090E1C04C06800CC2392 /* twiliochatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F208FC1C04C06800CC2392 /* twiliochat */ = {
+			isa = PBXGroup;
+			children = (
+				59F5EDB11C720DD700CE7D32 /* session */,
+				877109101C10EEF0004C57D3 /* channels */,
+				59AE1CCF1C0C8C6D0008B10B /* util */,
+				59AE1CD01C0D034D0008B10B /* messaging */,
+				87F895F41C0E040E00754007 /* menu */,
+				87F895F31C0E033A00754007 /* chat */,
+				59F209301C050ED800CC2392 /* login */,
+				59F2092B1C04C33C00CC2392 /* resources */,
+				59F208FD1C04C06800CC2392 /* AppDelegate.swift */,
+				59F209011C04C06800CC2392 /* Main.storyboard */,
+				59F209041C04C06800CC2392 /* Assets.xcassets */,
+				59F209061C04C06800CC2392 /* LaunchScreen.storyboard */,
+				877109181C162FC8004C57D3 /* ChatStatusTableCell.xib */,
+				877109191C162FC8004C57D3 /* ChatTableCell.xib */,
+				825276F51DFB48EC0029E3CA /* twiliochat-Bridging-Header.h */,
+				59F209091C04C06800CC2392 /* Info.plist */,
+			);
+			path = twiliochat;
+			sourceTree = "<group>";
+		};
+		59F209111C04C06800CC2392 /* twiliochatTests */ = {
+			isa = PBXGroup;
+			children = (
+				59A866D91C1B5D3700525F07 /* Mocks */,
+				59F209121C04C06800CC2392 /* DateTodayFormatterTests.swift */,
+				59F209141C04C06800CC2392 /* Info.plist */,
+				59A866DE1C1B6C0900525F07 /* LoginViewControllerTests.swift */,
+			);
+			path = twiliochatTests;
+			sourceTree = "<group>";
+		};
+		59F2092B1C04C33C00CC2392 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				59F2092D1C04C35E00CC2392 /* Keys.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		59F209301C050ED800CC2392 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				59F209311C050EF700CC2392 /* LoginViewController.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		59F5EDB11C720DD700CE7D32 /* session */ = {
+			isa = PBXGroup;
+			children = (
+				59F5EDB21C720E1200CE7D32 /* SessionManager.swift */,
+			);
+			name = session;
+			sourceTree = "<group>";
+		};
+		877109101C10EEF0004C57D3 /* channels */ = {
+			isa = PBXGroup;
+			children = (
+				877109141C10EF4F004C57D3 /* ChannelManager.swift */,
+			);
+			name = channels;
+			sourceTree = "<group>";
+		};
+		87F895F31C0E033A00754007 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				87F895F71C0E045F00754007 /* MainChatViewController.swift */,
+				8771091E1C175AC2004C57D3 /* ChatTableCell.swift */,
+				877109201C1772C5004C57D3 /* StatusMessage.swift */,
+			);
+			name = chat;
+			sourceTree = "<group>";
+		};
+		87F895F41C0E040E00754007 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				87F895F51C0E044300754007 /* MenuViewController.swift */,
+				877109161C15E55E004C57D3 /* MenuTableCell.swift */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		89D67A5C1B1630989E04019D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F208F91C04C06800CC2392 /* twiliochat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F209221C04C06800CC2392 /* Build configuration list for PBXNativeTarget "twiliochat" */;
+			buildPhases = (
+				59F208F61C04C06800CC2392 /* Sources */,
+				59F208F71C04C06800CC2392 /* Frameworks */,
+				59F208F81C04C06800CC2392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = twiliochat;
+			productName = twiliochat;
+			productReference = 59F208FA1C04C06800CC2392 /* twiliochat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59F2090D1C04C06800CC2392 /* twiliochatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F209251C04C06800CC2392 /* Build configuration list for PBXNativeTarget "twiliochatTests" */;
+			buildPhases = (
+				59F2090A1C04C06800CC2392 /* Sources */,
+				59F2090B1C04C06800CC2392 /* Frameworks */,
+				59F2090C1C04C06800CC2392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59F209101C04C06800CC2392 /* PBXTargetDependency */,
+			);
+			name = twiliochatTests;
+			productName = twiliochatTests;
+			productReference = 59F2090E1C04C06800CC2392 /* twiliochatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F208F21C04C06800CC2392 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Twilio;
+				TargetAttributes = {
+					59F208F91C04C06800CC2392 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 1150;
+					};
+					59F2090D1C04C06800CC2392 = {
+						CreatedOnToolsVersion = 7.1.1;
+						LastSwiftMigration = 1150;
+						TestTargetID = 59F208F91C04C06800CC2392;
+					};
+				};
+			};
+			buildConfigurationList = 59F208F51C04C06800CC2392 /* Build configuration list for PBXProject "twiliochat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 59F208F11C04C06800CC2392;
+			productRefGroup = 59F208FB1C04C06800CC2392 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F208F91C04C06800CC2392 /* twiliochat */,
+				59F2090D1C04C06800CC2392 /* twiliochatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F208F81C04C06800CC2392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8771091B1C162FC8004C57D3 /* ChatTableCell.xib in Resources */,
+				59F209081C04C06800CC2392 /* LaunchScreen.storyboard in Resources */,
+				59F209051C04C06800CC2392 /* Assets.xcassets in Resources */,
+				8771091A1C162FC8004C57D3 /* ChatStatusTableCell.xib in Resources */,
+				59F209031C04C06800CC2392 /* Main.storyboard in Resources */,
+				59F2092F1C04C35E00CC2392 /* Keys.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F2090C1C04C06800CC2392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F208F61C04C06800CC2392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877109151C10EF4F004C57D3 /* ChannelManager.swift in Sources */,
+				87F895F81C0E045F00754007 /* MainChatViewController.swift in Sources */,
+				877109171C15E55E004C57D3 /* MenuTableCell.swift in Sources */,
+				877109231C1776FA004C57D3 /* DateTodayFormatter.swift in Sources */,
+				877109211C1772C5004C57D3 /* StatusMessage.swift in Sources */,
+				8771091D1C1638E9004C57D3 /* InputDialogController.swift in Sources */,
+				59F209321C050EF700CC2392 /* LoginViewController.swift in Sources */,
+				8771091F1C175AC2004C57D3 /* ChatTableCell.swift in Sources */,
+				87F895F21C0CF3CE00754007 /* AlertDialogController.swift in Sources */,
+				59AE1CCE1C0C8C280008B10B /* TextFieldFormHandler.swift in Sources */,
+				59F208FE1C04C06800CC2392 /* AppDelegate.swift in Sources */,
+				59AE1CD21C0D03820008B10B /* MessagingManager.swift in Sources */,
+				59F5EDB01C6E925500CE7D32 /* TokenRequestHandler.swift in Sources */,
+				59F5EDB31C720E1200CE7D32 /* SessionManager.swift in Sources */,
+				87F895F61C0E044300754007 /* MenuViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59F2090A1C04C06800CC2392 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A866DD1C1B5E8100525F07 /* MockAlertDialogController.swift in Sources */,
+				59F209131C04C06800CC2392 /* DateTodayFormatterTests.swift in Sources */,
+				59A866DF1C1B6C0900525F07 /* LoginViewControllerTests.swift in Sources */,
+				8A07B2CB1F224CAD009F0836 /* MockMessagingManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59F209101C04C06800CC2392 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59F208F91C04C06800CC2392 /* twiliochat */;
+			targetProxy = 59F2090F1C04C06800CC2392 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59F209011C04C06800CC2392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F209021C04C06800CC2392 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59F209061C04C06800CC2392 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59F209071C04C06800CC2392 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59F209201C04C06800CC2392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59F209211C04C06800CC2392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59F209231C04C06800CC2392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}\"/**",
+				);
+				INFOPLIST_FILE = twiliochat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = twilio.twiliochat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "twiliochat/twiliochat-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59F209241C04C06800CC2392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}\"/**",
+				);
+				INFOPLIST_FILE = twiliochat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = twilio.twiliochat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "twiliochat/twiliochat-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		59F209261C04C06800CC2392 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = twiliochatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = twilio.twiliochatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twiliochat.app/twiliochat";
+			};
+			name = Debug;
+		};
+		59F209271C04C06800CC2392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = twiliochatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = twilio.twiliochatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/twiliochat.app/twiliochat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F208F51C04C06800CC2392 /* Build configuration list for PBXProject "twiliochat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F209201C04C06800CC2392 /* Debug */,
+				59F209211C04C06800CC2392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F209221C04C06800CC2392 /* Build configuration list for PBXNativeTarget "twiliochat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F209231C04C06800CC2392 /* Debug */,
+				59F209241C04C06800CC2392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F209251C04C06800CC2392 /* Build configuration list for PBXNativeTarget "twiliochatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F209261C04C06800CC2392 /* Debug */,
+				59F209271C04C06800CC2392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F208F21C04C06800CC2392 /* Project object */;
+}
