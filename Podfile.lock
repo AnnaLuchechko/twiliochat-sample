@@ -1,0 +1,24 @@
+PODS:
+  - SlackTextViewController (1.9.6)
+  - SWRevealViewController (2.3.0)
+  - TwilioChatClient (4.0.0)
+
+DEPENDENCIES:
+  - SlackTextViewController (= 1.9.6)
+  - SWRevealViewController (~> 2.3)
+  - TwilioChatClient (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SlackTextViewController
+    - SWRevealViewController
+    - TwilioChatClient
+
+SPEC CHECKSUMS:
+  SlackTextViewController: b854e62c1c156336bc4fd409c6ca79b5773e8f9d
+  SWRevealViewController: 6d3fd97f70112fd7cef9de14df4260eacce4c63a
+  TwilioChatClient: 72fad6bd1fcff3bb13d90a5a5c873509072d859a
+
+PODFILE CHECKSUM: 9fb530d9294dcf8e8f7f735b87bea8ccde0b39f3
+
+COCOAPODS: 1.8.4
